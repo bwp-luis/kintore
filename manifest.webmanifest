@@ -1,0 +1,29 @@
+{
+ "name": "筋トレ一覧",
+ "short_name": "筋トレ",
+ "lang": "ja",
+ "description": "筋トレ種目・記録カレンダー・痛風向け献立・有酸素・ストレッチ",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#171514",
+ "theme_color": "#171514",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
