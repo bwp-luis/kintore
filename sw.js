@@ -1,6 +1,6 @@
 // E43: 公開版のオフライン用。開くたびにまずネットから取り(新しい版を優先)、つながらないときは前に取った版を出す。
-// 記録はブラウザの localStorage にあり、ここでは触らない。56d47df07c は make_site.py が中身の版に置き換える。
-const CACHE = 'kintore-site-56d47df07c';
+// 記録はブラウザの localStorage にあり、ここでは触らない。05857112db は make_site.py が中身の版に置き換える。
+const CACHE = 'kintore-site-05857112db';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
